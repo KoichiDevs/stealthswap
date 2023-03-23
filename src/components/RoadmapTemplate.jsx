@@ -26,7 +26,7 @@ const RoadmapTemplate = ({ num, title, list }) => {
                 <div className="w-2 h-2 bg-transparent absolute bottom-0 left-0 translate-y-[2300%]" style={num === 4 ? { display: "none" } : {}} ref={circRef}></div>
             </div>
             <AnimateText>
-                <div className="md:w-[37rem] sm:w-[25rem] w-[18rem] sm:h-[18rem] h-[21rem] bg-wht/10 backdrop-blur rounded-[15px] border-[1px] text-left p-10 relative">
+                <div className="md:w-[37rem] sm:w-[25rem] w-[18rem] sm:h-[19rem] h-[22.5rem] bg-wht/10 backdrop-blur rounded-[15px] border-[1px] text-left p-10 relative">
                     <img src={`/${num}.webp`} alt="" className="absolute h-[90%] bottom-0 right-0 opacity-10" />
 
                     <h1 className='bg-gradient-to-r bg-clip-text from-rd to-orng inline-block text-transparent font-[700] sm:text-4xl text-2xl'>{title}</h1>

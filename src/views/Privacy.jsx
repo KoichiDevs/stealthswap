@@ -22,7 +22,7 @@ const Privacy = () => {
             <div className='max-w-[1500px] mx-auto relative justify-end py-32'>
                 <AnimateText>
                     <div className="text-center">
-                        <h1 className='text-center md:text-6xl font-[900] text-4xl 2xl:text-7xl'>CHANGING THE NARRATIVE</h1>
+                        <h1 className='text-center md:text-6xl font-[900] text-4xl 2xl:text-7xl'>THE NARRATIVE</h1>
                         <p className='text-center font-[500] text-2xl bg-gradient-to-r bg-clip-text from-rd to-orng inline-block text-transparent'>Privacy is security</p>
                     </div>
                 </AnimateText>
@@ -33,14 +33,14 @@ const Privacy = () => {
                     <AnimateImage src="laptop" className="w-[33rem]" />
                     <AnimateText>
                         <div className="max-w-[28rem] flex flex-col gap-y-6 font-[200]">
-                            <p className="">The use of currency mixers has become increasingly popular in recent years, allowing users to swap digital assets without revealing their identity.</p>
+                            <p className="">In recent years currency mixers have become increasingly popular, allowing users to swap digital assets while remaining anonymous.</p>
 
                             <p className="">
-                                While it has enabled a certain level of privacy, this has come at the cost of regulatory compliance. Despite its popularity, Tornado Cash, a currency mixer, was found to be illegal and its developers were unwilling to cooperate with authorities to rectify the situation.
+                                This has enabled a certain level of privacy and anonymity but with technological advancements in crypto, the need has increased exponentially.
                             </p>
 
                             <p className="">
-                                This has left both developers and users of currency mixers at risk of sanctions from regulatory bodies. It is now clear that currency mixers cannot be a sustainable long–term solution, and that regulatory compliance is essential for the viability of such services.
+                                It is no longer a question, any person that knows the basics of ether-scan, can find all the information about your wallets &#40;tokens, exchanges, dollar amounts&#41; privacy has now become a necessity more than ever before. Crypto by nature is cryptic &#40;hidden&#41; your tokens your business.
                             </p>
                         </div>
                     </AnimateText>

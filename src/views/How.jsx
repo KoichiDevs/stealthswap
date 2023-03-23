@@ -14,23 +14,18 @@ const How = () => {
 
     const howList = [
         {
-            title: 'Swap',
-            desc: 'Anonymizes your crypto by swapping it first to Monero* on Exchange A',
+            title: 'Send',
+            desc: 'Mixed currency is sent to your predetermined wallet without a trace',
             num: ''
         },
         {
             title: 'Anonymity',
-            desc: 'Sends your anonymous Monero from Exchange A to Exchange B',
-            num: ''
-        },
-        {
-            title: 'Poof',
-            desc: 'Swaps the Monero on Exchange B to your desired receiving currency',
+            desc: 'Sends your crypto currency from one exchange  to another.',
             num: ''
         },
         {
             title: 'Privacy',
-            desc: 'Sends receiving currency to your desired wallet, breaking all links between the sender and receiver',
+            desc: 'Swaps your tokens to the requested token through private buy/sell',
             num: ''
         },
     ]
@@ -72,7 +67,6 @@ const How = () => {
         "100%",
         "200%",
         "300%",
-        "400%"
     ]
 
     return (
@@ -90,7 +84,7 @@ const How = () => {
             <div className='max-w-[1500px] mx-auto pb-3 flex flex-col gap-y-3 relative z-10'>
                 <AnimateText>
                     <h1 className='text-center md:text-8xl font-[900] sm:text-6xl text-4xl'>HOW IT WORKS</h1>
-                    <p className='text-center font-[500] text-2xl bg-gradient-to-r bg-clip-text from-rd to-orng text-transparent w-fit mx-auto'>Monero as a tunnel between exchanges</p>
+                    <p className='text-center font-[500] text-2xl bg-gradient-to-r bg-clip-text from-rd to-orng text-transparent w-fit mx-auto'>A tunnel between exchanges</p>
                 </AnimateText>
 
                 <div className="mt-24 2xl:max-w-[93rem] xl:max-w-[75rem] lg:max-w-[63rem] sm:max-w-[30rem] max-w-[18rem] pb-10 mx-auto w-fit">
@@ -116,7 +110,7 @@ const How = () => {
 
                         </div>
                         <div className="w-full h-[2px] relative mx-auto">
-                            <div className="w-[25%] h-full bg-gradient-to-r from-rd to-orng transition-all ease-in-out duration-300" style={{ transform: `translateX(${trans[current]})` }}></div>
+                            <div className="w-[33%] h-full bg-gradient-to-r from-rd to-orng transition-all ease-in-out duration-300" style={{ transform: `translateX(${trans[current]})` }}></div>
                         </div>
                     </div>
 

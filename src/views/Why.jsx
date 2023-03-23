@@ -21,17 +21,17 @@ const Why = () => {
 
                         <div className="text-center lg:text-left">
                             <AnimateText>
-                                <h1 className='font-[900] xl:text-6xl lg:text-4xl sm:text-4xl text-2xl bg-gradient-to-r bg-clip-text from-rd to-orng inline-block text-transparent mt-2 lg:mt-0'>WHY THIS WORKS?</h1>
+                                <h1 className='font-[900] xl:text-6xl lg:text-4xl sm:text-4xl text-2xl bg-gradient-to-r bg-clip-text from-rd to-orng inline-block text-transparent mt-2 lg:mt-0'>THE METHOD</h1>
                             </AnimateText>
 
                             <AnimateText>
                                 <div className="font-[200] max-w-[30rem] gap-y-4 flex flex-col mt-4">
                                     <p className="">
-                                        When a Monero transaction is sent, there is no way to see the sending party, receiving party, nor the transaction value.
+                                        Through the privacy token Monero, the transactions are anonymous, there is no way to see the sending party, receiving party nor the value of the transaction.
                                     </p>
 
                                     <p className="">
-                                        By sending Monero from one exchange to another, it vanishes from the ledger, then suddenly reappears to a new exchange that has no tie to the former.
+                                        By sending Monero from one exchange to another, it disappears from the ledger, then  reappears on the new exchange with no ties to the former.
                                     </p>
                                 </div>
                             </AnimateText>

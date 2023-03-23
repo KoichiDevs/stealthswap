@@ -107,7 +107,7 @@ export const partners = [
 
 export const roadmapList = [
     {
-        title: "Professionalize",
+        title: "Create",
         desc:
             [
                 <p className="">
@@ -138,6 +138,10 @@ export const roadmapList = [
                 </p>,
 
                 <p className="">
+                    5+ Exchanges Onboarded
+                </p>,
+
+                <p className="">
                     Anonymous Crypto onramp via Credit Card
                 </p>,
 
@@ -157,7 +161,7 @@ export const roadmapList = [
             [
                 <p className="">Dedicated Accounts Team</p>,
                 <p className="">Expand Support Team</p>,
-                <p className="">Expand partnerships into other security</p>
+                <p className="">Expand partnerships into other securities</p>
 
             ],
 
@@ -167,9 +171,9 @@ export const roadmapList = [
         desc:
             [
                 <p className="">Anonymous NFT Purchasses</p>,
-                <p className="">SpecterOTC</p>,
-                <p className="">SpecterP2P Exchange</p>,
-                <p className="">SpecterFest - Conference</p>
+                <p className="">StealthOTC</p>,
+                <p className="">StealthP2P Exchange</p>,
+                <p className="">StealthFest - Conference</p>
 
             ],
 
