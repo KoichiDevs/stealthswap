@@ -32,9 +32,13 @@ const Nav = () => {
         <nav className={`w-full h-auto px-8 sm:px-10 py-10 fixed z-20 transition-all ease-in-out duration-200 ${scrolled ? "bg-blk/80 backdrop-blur py-5" : ""}`}>
             <div className='flex max-w-[1500px] mx-auto justify-between items-center'>
                 <a href='#' className='text-2xl font-bold flex items-center gap-x-2'>
-                    <p className="">Stealth</p>
-                    <AiOutlineSwap className='text-3xl'/>
-                    <p className="">Swap</p>
+                    <img src="/logo.webp" alt="Logo" className="w-20" />
+                    <div className="flex gap-x-2 items-center">
+                        <p className="">StealthSwap</p>
+                        {/* <AiOutlineSwap className='text-3xl' /> */}
+                        {/* <p className="">Swap</p> */}
+                    </div>
+
                 </a>
                 <div className='gap-x-[2rem] hidden lg:flex justify-center items-center'>
                     {navlinks.map((link, i) =>
